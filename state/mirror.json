@@ -1,0 +1,5 @@
+{
+  "source": "docker.io/metacubex/mihomo",
+  "destination": "ghcr.io/k2kib4h2ysevdoq61a4i73i01bkw7hkp/mihomo",
+  "tags": {}
+}

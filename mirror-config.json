@@ -1,0 +1,19 @@
+{
+  "source": "docker.io/metacubex/mihomo",
+  "destination": "ghcr.io/k2kib4h2ysevdoq61a4i73i01bkw7hkp/mihomo",
+  "tag_pattern": "^v[0-9]+\\.[0-9]+\\.[0-9]+$",
+  "immutable_tag_pattern": "^v[0-9]+\\.[0-9]+\\.[0-9]+$",
+  "expected_platforms": [
+    "linux/386",
+    "linux/amd64",
+    "linux/arm64",
+    "linux/arm/v7"
+  ],
+  "heartbeat_days": 30,
+  "tag_policy": {
+    "include": "newest vX.Y.Z tag only",
+    "exclude": ["Alpha", "Meta", "latest", "pr-*"],
+    "delete_missing_tags": false,
+    "overwrite_changed_semver_tag": false
+  }
+}
