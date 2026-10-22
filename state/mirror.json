@@ -2,16 +2,16 @@
   "destination": "ghcr.io/k2kib4h2ysevdoq61a4i73i01bkw7hkp/mihomo",
   "source": "docker.io/metacubex/mihomo",
   "tags": {
-    "v1.19.32": {
-      "destination_digest": "sha256:bac1a74de365ea59270ba134016762c6be05654d55246518de256113bd1c225e",
+    "v1.19.33": {
+      "destination_digest": "sha256:9211361a3ed85305383288d38c05e85862d6d5a590c10007c37fc059cca82e9c",
       "platforms": [
         "linux/386",
         "linux/amd64",
         "linux/arm/v7",
         "linux/arm64"
       ],
-      "source_digest": "sha256:bac1a74de365ea59270ba134016762c6be05654d55246518de256113bd1c225e",
-      "synced_at": "2026-10-01T10:10:40Z"
+      "source_digest": "sha256:9211361a3ed85305383288d38c05e85862d6d5a590c10007c37fc059cca82e9c",
+      "synced_at": "2026-10-22T08:38:54Z"
     }
   }
 }
